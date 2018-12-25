@@ -1,9 +1,11 @@
+#include<stdio.h>
 int main()
 {
-  int i;
-  for (i = 0; i < 10; i++)
+   printf("1\n");
+   for (int i = 0; i < 32; i++)
   {
-    printf("Holberton\n");
+   printf("Hello Holberton\n");
   }
-  return 0;
+   printf("32\n");
+   return 0;
 }
